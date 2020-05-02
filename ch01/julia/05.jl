@@ -9,5 +9,5 @@ function n_gram(n, text)
 end
 
 str = "I am an NLPer"
-println(n_gram(1, split(str, " ")))
-println(n_gram(1, str))
+println(n_gram(2, split(str, " ")))
+println(n_gram(2, str))
